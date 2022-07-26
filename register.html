@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Create Account - SpaceX Store</title>
+</head>
+<body>
+    <nav>
+        <div class="image">
+        <a href="shop.html"><img src="PngItem_6781246.png" alt="none" height="18px"  width="158px"></a>
+    </div>
+    
+     <ul class="spacex__navMain">
+         <li><a id="Mens" href="#">MENS</a>
+          <ul id="drop1" class="dropdown_menu">
+            <li>Shirts</li>
+            <li>Outerwear</li>
+            <li>View All</li>
+          </ul>
+        </li>
+         <li><a id="Womens" href="#">WOMENS</a>
+          <ul id="drop2" class="dropdown_menu">
+            <li>Shirts</li>
+            <li>Outerwear</li>
+            <li>View All</li>
+          </ul>
+        </li>
+         <li><a id="Kids" href="#">KIDS</a>
+          <ul id="drop3" class="dropdown_menu">
+            <li>Shirts</li>
+            <li>Outerwear</li>
+            <li>View All</li>
+          </ul>
+        </li>
+         <li><a id="Acc" href="#">ACCESSORIES</a>
+            <ul id="drop4" class="dropdown_menu">
+              <li>View All</li>
+            </ul>
+        </li>
+         <li><a id="Pre" href="#">PREMIUM</a>
+          <ul id="drop5" class="dropdown_menu">
+            <li>View All</li>
+          </ul>
+        </li>
+     </ul>
+     <ul class="spacex__navRight">
+         <li class="navright__small"><a href="account.html">ACCOUNT</a></li>
+         <li class="navright__small1">SEARCH</li>
+         <li><a href="#">CART (0)</a></li>
+     </ul>
+    </nav>
+
+    <div class="opacity__search"></div>
+    <div class="searchbox"><p class="material-symbols-outlined">search</p><input type="text" class="dabba" placeholder="SEARCH...">
+      
+
+        <span id="cross"  class="material-symbols-outlined"  onclick="closeSearchBar()">
+          close
+        </span>
+    </div>
+
+    <div class="spacex__mainForm">
+        <h2>REGISTER</h2>
+        <p>Please fill in the information below:</p>
+        <form action="#">
+            <input class="first_name" type="text"name="fname" placeholder="First name">
+            <input class="last_name" type="text"name="lname" placeholder="Last name">
+            <input class="email" type="text"name="email" placeholder="Email">
+            <input class="spacex__password" type="text" name="password" placeholder="Password">
+     
+            <section>
+                <button class ="login" type="submit">CREATE MY ACCOUNT</button>
+            </section>  
+        </form>
+    </div>
+    <footer>
+    
+        <ul>
+   
+          <li>FAQs</li>
+          <li>Search</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+         </ul>
+   </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="register.js"></script>   
+</body>
+</html>
